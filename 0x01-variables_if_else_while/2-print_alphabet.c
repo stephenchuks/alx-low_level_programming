@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main 
+* main
 *
-* Description: using the main functio
+* Description: using the main function print "desired result"
 *
 * Return: Always  0 (Success)
 */
