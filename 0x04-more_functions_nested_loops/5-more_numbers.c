@@ -1,22 +1,19 @@
-#include <string.h>
-#include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
+
 /**
- * more_numbers - Function to return 0-14 written 10x.
- * Return:  void
- */
+* more_numbers -> printing more numbers
+*/
 void more_numbers(void)
 {
-	int c, i;
+	int x, y;
 
-	for (c = 0; c < 10; c++)
+	for (x = 0; x < 10; x++)
 	{
-		for (i = 0; i <= 14; i++)
+		for (y = 0; y < 15; y++)
 		{
-			if (i >= 10)
-				_putchar(i / 10 + '0');
-			_putchar(i % 10 + '0');
+			if (y >= 10)
+				_putchar((y / 10) + '0');
+			_putchar((y % 10) + '0');
 		}
 		_putchar('\n');
 	}
