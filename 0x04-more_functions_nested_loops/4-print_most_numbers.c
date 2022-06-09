@@ -1,22 +1,16 @@
-#include <string.h>
-#include <stdlib.h>
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_most_numbers - Function to numbers from 0-9 but not 2 and 4.
- * Return:  void
- */
+* print_most_numbers -> this prints most numbers
+*/
 void print_most_numbers(void)
 {
-	char c;
+	int x;
 
-	for (c = '0'; c <= '9'; c++)
+	for (x = 0; x < 10; x++)
 	{
-		if (c != '2' && c != '4')
-		{
-			_putchar(c);
-		}
+		if (x != 2 && x != 4)
+			_putchar(x + '0');
 	}
 	_putchar('\n');
-
 }
