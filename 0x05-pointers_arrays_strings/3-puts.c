@@ -1,3 +1,5 @@
+#include "main.h"
+#include <stdio>
 /**
  * _puts - function that prints a string, followed by a new line
  * @str: declaration of *str and paramters for the function _puts
