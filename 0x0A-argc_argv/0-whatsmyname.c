@@ -1,14 +1,18 @@
 #include <stdio.h>
 /**
- * main -  writes its name
- * @argc: arguement count
- * @argv: array of pointers to arguement strings
+ * main - program that prints its name, followed by a new line
+ * @argc: argument that counts argument input
+ * @argv: argument that stores the strings in an array of char* (strings)
  * Return: 0
- **/
+ */
 int main(int argc, char *argv[])
 {
-	argc = argc;
-	printf("%s\n", *argv);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	return (0);
 }
 
