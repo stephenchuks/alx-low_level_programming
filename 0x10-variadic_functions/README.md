@@ -1,0 +1,1 @@
+This directory contains the solutions to the Varadiatic function tasks of the ALX Software Engineering Program.  All files and code were created with ultimate focus on passing the ALX checker and also for personal reference purposes.
